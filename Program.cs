@@ -47,13 +47,20 @@ namespace BlogsConsole
                     {
                         Console.WriteLine("Enter a name for a new blog:");
                         var name = Console.ReadLine();
-                        
+                        if (name == "")
+
+                        {
+                            logger.Error("Blog name cannot be null");
+                            
+                        }
+                        else
+                        {
                         var blog = new Blog { Name = name };
 
                         var db = new BloggingContext();
                         db.AddBlog(blog);
                         logger.Info("Blog added - {name}", name);
-
+                        }
                         
                     } catch (Exception ex)
                         {
