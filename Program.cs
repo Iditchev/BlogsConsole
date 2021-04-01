@@ -42,11 +42,12 @@ namespace BlogsConsole
                  }
                  else if (userinput == "2")
                  {
+                    logger.Info($"Option \"{userinput}\" selected");
                     try 
                     {
                         Console.WriteLine("Enter a name for a new blog:");
                         var name = Console.ReadLine();
-
+                        
                         var blog = new Blog { Name = name };
 
                         var db = new BloggingContext();
@@ -59,7 +60,15 @@ namespace BlogsConsole
                          logger.Error(ex.Message);
                         }
 
-                 }    
+                 } 
+                 else if (userinput == "3") 
+                 {
+                     logger.Info($"Option \"{userinput}\" selected");
+                 }  
+                 else if (userinput == "4")
+                 {
+                     logger.Info($"Option \"{userinput}\" selected");
+                 }
             }  
              while (userinput == "1" || userinput == "2" || userinput == "3" || userinput == "4");
              
