@@ -17,20 +17,24 @@ namespace BlogsConsole
             do
             {
 
-                 // Create and save a new Blog
+                 Console.WriteLine("Enter your selection: ");
                  Console.WriteLine("1. Display all Blogs");
                  Console.WriteLine("2. Add Blog");
                  Console.WriteLine("3. Create Post");
                  Console.WriteLine("4. Display Posts");
+                 Console.WriteLine("Enter any other key to quit");
                  
                  userinput = Console.ReadLine();
                  
                  if (userinput == "1")
                  {
+                     logger.Info($"Option \"{userinput}\" selected");
                      // Display all Blogs from the database
+                        var db = new BloggingContext();
+                        var count = db.Blogs.Count();
                         var query = db.Blogs.OrderBy(b => b.Name);
 
-                        Console.WriteLine("All blogs in the database:");
+                        Console.WriteLine($"{count} Blogs returned");
                         foreach (var item in query)
                             {
                         Console.WriteLine(item.Name);
@@ -50,7 +54,7 @@ namespace BlogsConsole
                         logger.Info("Blog added - {name}", name);
 
                         
-                    } catch
+                    } catch (Exception ex)
                         {
                          logger.Error(ex.Message);
                         }

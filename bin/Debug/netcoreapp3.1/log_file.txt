@@ -16,3 +16,9 @@
 2021-03-31 19:39:02.7544|INFO|BlogsConsole.Program|Program started
 2021-03-31 19:39:14.1450|INFO|BlogsConsole.Program|Blog added - "Kittens"
 2021-03-31 19:39:14.3473|INFO|BlogsConsole.Program|Program ended
+2021-03-31 20:05:08.3021|INFO|BlogsConsole.Program|Program started
+2021-03-31 20:06:02.7981|INFO|BlogsConsole.Program|Program ended
+2021-03-31 20:10:42.8935|INFO|BlogsConsole.Program|Program started
+2021-03-31 20:12:55.3410|INFO|BlogsConsole.Program|Program ended
+2021-03-31 20:13:01.9152|INFO|BlogsConsole.Program|Program started
+2021-03-31 20:13:03.8508|INFO|BlogsConsole.Program|Option "1" selected
