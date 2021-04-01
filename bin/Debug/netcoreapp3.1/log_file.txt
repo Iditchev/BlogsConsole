@@ -1,0 +1,18 @@
+2021-03-30 19:40:57.2244|INFO|BlogsConsole.Program|Program started
+2021-03-30 19:41:04.0499|ERROR|BlogsConsole.Program|Value cannot be null. (Parameter 'connectionString')
+2021-03-30 19:41:04.0523|INFO|BlogsConsole.Program|Program ended
+2021-03-30 19:45:23.2295|INFO|BlogsConsole.Program|Program started
+2021-03-30 19:45:28.2382|ERROR|BlogsConsole.Program|Value cannot be null. (Parameter 'connectionString')
+2021-03-30 19:45:28.2407|INFO|BlogsConsole.Program|Program ended
+2021-03-30 19:52:58.5691|INFO|BlogsConsole.Program|Program started
+2021-03-30 19:53:04.6689|ERROR|BlogsConsole.Program|Value cannot be null. (Parameter 'connectionString')
+2021-03-30 19:53:04.6710|INFO|BlogsConsole.Program|Program ended
+2021-03-31 19:21:54.7861|INFO|BlogsConsole.Program|Program started
+2021-03-31 19:21:59.6970|ERROR|BlogsConsole.Program|Value cannot be null. (Parameter 'connectionString')
+2021-03-31 19:21:59.6986|INFO|BlogsConsole.Program|Program ended
+2021-03-31 19:30:46.2173|INFO|BlogsConsole.Program|Program started
+2021-03-31 19:30:51.6689|INFO|BlogsConsole.Program|Blog added - "Puppies"
+2021-03-31 19:30:51.9331|INFO|BlogsConsole.Program|Program ended
+2021-03-31 19:39:02.7544|INFO|BlogsConsole.Program|Program started
+2021-03-31 19:39:14.1450|INFO|BlogsConsole.Program|Blog added - "Kittens"
+2021-03-31 19:39:14.3473|INFO|BlogsConsole.Program|Program ended
