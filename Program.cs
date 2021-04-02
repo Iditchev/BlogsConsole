@@ -74,32 +74,41 @@ namespace BlogsConsole
                      Console.WriteLine("Select the Blog you want to post to:");
                         var db = new BloggingContext();
                         var query = db.Blogs.OrderBy(b => b.Name);
-
+                        var count = db.Blogs.Count();
+                        
                         foreach (var item in query)
                             {
-                            int i = 0;
-                            i++;
-                            Console.WriteLine($"{i}){item.Name}");
-                            }   
+                        Console.WriteLine(item.Name);
+                            }    
                        try
                        {
-                       int blogselection = Convert.ToInt32(Console.ReadLine());
-                       
-                          
-                        } catch {logger.Error("Invalid Blog ID");}    
+                        string blogselection = Console.ReadLine(); 
+                        var blogexists = db.Blogs.Where(m => m.Name.Contains(blogselection));
+                        var blogcount = blogexists.Count();
+                        
+                            if (blogcount == 0 )
+                            {
+                                logger.Error("There are no blogs saved with that name");
+                            } 
+                            else
+                            {
+
+                            }
+                        } catch {logger.Error("Invalid Blog ID");} 
                  }      
                  else if (userinput == "4")
                  {
                      logger.Info($"Option \"{userinput}\" selected");
                  }
              
-             while (userinput == "1" || userinput == "2" || userinput == "3" || userinput == "4");
+             
              
                 
              
 
 
-            logger.Info("Program ended");
+            
+            }while (userinput == "1" || userinput == "2" || userinput == "3" || userinput == "4");
         }
     }
 }
