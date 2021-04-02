@@ -71,12 +71,28 @@ namespace BlogsConsole
                  else if (userinput == "3") 
                  {
                      logger.Info($"Option \"{userinput}\" selected");
-                 }  
+                     Console.WriteLine("Select the Blog you want to post to:");
+                        var db = new BloggingContext();
+                        var query = db.Blogs.OrderBy(b => b.Name);
+
+                        foreach (var item in query)
+                            {
+                            int i = 0;
+                            i++;
+                            Console.WriteLine($"{i}){item.Name}");
+                            }   
+                       try
+                       {
+                       int blogselection = Convert.ToInt32(Console.ReadLine());
+                       
+                          
+                        } catch {logger.Error("Invalid Blog ID");}    
+                 }      
                  else if (userinput == "4")
                  {
                      logger.Info($"Option \"{userinput}\" selected");
                  }
-            }  
+             
              while (userinput == "1" || userinput == "2" || userinput == "3" || userinput == "4");
              
                 
