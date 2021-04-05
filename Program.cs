@@ -107,16 +107,35 @@ namespace BlogsConsole
                  else if (userinput == "4")
                  {
                      logger.Info($"Option \"{userinput}\" selected");
-                 }
-             
-             
-             
-                
-             
+                     Console.WriteLine("Select the blog's posts to display:");
+                     var db = new BloggingContext();
+                     var query = db.Blogs.OrderBy(b => b.BlogId);
 
+                      foreach (var item in query)
+                            {
+                            Console.WriteLine($"{item.BlogId}. Posts from {item.Name}");
+                            }
 
-            
+                        bool success = Int32.TryParse (Console.ReadLine(),out int blogId); 
+                        if (success)
+                       { var blog = db.Blogs.FirstOrDefault(m => m.BlogId == blogId);
+                            if (blog != null)
+                            {
+                                var count = db.Posts.Where(m => m.BlogId == blogId).Count();
+                                var posts = db.Posts.Where(m => m.BlogId == blogId).OrderBy(p => p.Title);
+
+                                Console.WriteLine($"{count} Posts returned");
+                                    foreach (var item in posts)
+                                    {
+                                        Console.WriteLine($"Blog:{item.Blog.Name}");
+                                        Console.WriteLine($"Title:{item.Title}");
+                                        Console.WriteLine($"Content:{item.Content}");
+                                    }   
+                            } else {logger.Error("There are no blogs saved with that Id");}
+                        } else {logger.Error("Invalid entry, please try again");}
+             
+                }
             }while (userinput == "1" || userinput == "2" || userinput == "3" || userinput == "4");
-        }
-    }
+        }    
+    }   
 }
