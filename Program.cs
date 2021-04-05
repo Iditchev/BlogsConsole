@@ -73,28 +73,36 @@ namespace BlogsConsole
                      logger.Info($"Option \"{userinput}\" selected");
                      Console.WriteLine("Select the Blog you want to post to:");
                         var db = new BloggingContext();
-                        var query = db.Blogs.OrderBy(b => b.Name);
+                        var query = db.Blogs.OrderBy(b => b.BlogId);
                         var count = db.Blogs.Count();
                         
                         foreach (var item in query)
                             {
-                        Console.WriteLine(item.Name);
+                        Console.WriteLine($"{item.BlogId}. {item.Name}");
                             }    
-                       try
-                       {
-                        string blogselection = Console.ReadLine(); 
-                        var blogexists = db.Blogs.Where(m => m.Name.Contains(blogselection));
-                        var blogcount = blogexists.Count();
-                        
-                            if (blogcount == 0 )
+                      
+                       
+                        bool success = Int32.TryParse (Console.ReadLine(),out int blogId); 
+                        if (success)
+                       { var blog = db.Blogs.FirstOrDefault(m => m.BlogId == blogId);
+                            if (blog != null)
                             {
-                                logger.Error("There are no blogs saved with that name");
+                            Post post = new Post();
+                            Console.WriteLine("Enter Post Title:");
+                            post.Title = Console.ReadLine();
+                            Console.WriteLine("Enter Post Content:");
+                            post.Content = Console.ReadLine();
+                            post.BlogId = blog.BlogId;
+                            db.AddPost(post);
                             } 
-                            else
+                            else 
                             {
-
-                            }
-                        } catch {logger.Error("Invalid Blog ID");} 
+                            logger.Error("There are no blogs saved with that Id");
+                            }    
+                        }
+                        else { logger.Error("Invalid entry, please try again");}
+                       
+                        
                  }      
                  else if (userinput == "4")
                  {
