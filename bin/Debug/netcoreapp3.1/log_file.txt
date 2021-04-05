@@ -22,3 +22,100 @@
 2021-03-31 20:12:55.3410|INFO|BlogsConsole.Program|Program ended
 2021-03-31 20:13:01.9152|INFO|BlogsConsole.Program|Program started
 2021-03-31 20:13:03.8508|INFO|BlogsConsole.Program|Option "1" selected
+2021-03-31 20:15:24.6324|INFO|BlogsConsole.Program|Program ended
+2021-03-31 20:15:29.2284|INFO|BlogsConsole.Program|Program started
+2021-03-31 20:15:31.1397|INFO|BlogsConsole.Program|Option "2" selected
+2021-03-31 20:15:38.2994|INFO|BlogsConsole.Program|Blog added - "Puppies"
+2021-03-31 20:15:51.8330|INFO|BlogsConsole.Program|Option "1" selected
+2021-03-31 20:16:09.5513|INFO|BlogsConsole.Program|Option "2" selected
+2021-03-31 20:16:12.1542|INFO|BlogsConsole.Program|Blog added - "Kittens"
+2021-03-31 20:16:23.6456|INFO|BlogsConsole.Program|Option "1" selected
+2021-03-31 20:17:12.7504|INFO|BlogsConsole.Program|Option "2" selected
+2021-03-31 20:17:14.5788|INFO|BlogsConsole.Program|Blog added - ""
+2021-03-31 20:28:44.1122|INFO|BlogsConsole.Program|Program ended
+2021-03-31 20:36:26.4336|INFO|BlogsConsole.Program|Program started
+2021-03-31 20:36:30.9015|INFO|BlogsConsole.Program|Option "1" selected
+2021-03-31 20:36:39.8522|INFO|BlogsConsole.Program|Option "2" selected
+2021-03-31 20:36:42.4405|INFO|BlogsConsole.Program|Blog added - ""
+2021-03-31 20:37:21.3345|INFO|BlogsConsole.Program|Program ended
+2021-03-31 20:37:26.5708|INFO|BlogsConsole.Program|Program started
+2021-03-31 20:37:28.3350|INFO|BlogsConsole.Program|Option "2" selected
+2021-03-31 20:37:30.5925|ERROR|BlogsConsole.Program|Blog name cannot be null
+2021-03-31 20:37:30.5932|INFO|BlogsConsole.Program|Program ended
+2021-03-31 20:37:56.8256|INFO|BlogsConsole.Program|Program started
+2021-03-31 20:37:59.7085|INFO|BlogsConsole.Program|Option "2" selected
+2021-03-31 20:38:03.2223|ERROR|BlogsConsole.Program|Blog name cannot be null
+2021-03-31 20:38:15.3265|INFO|BlogsConsole.Program|Program ended
+2021-04-01 20:18:00.2820|INFO|BlogsConsole.Program|Program started
+2021-04-01 20:18:03.7856|INFO|BlogsConsole.Program|Option "3" selected
+2021-04-01 20:19:27.2959|ERROR|BlogsConsole.Program|Invalid Blog ID
+2021-04-01 20:19:49.0777|INFO|BlogsConsole.Program|Program started
+2021-04-01 20:19:51.3865|INFO|BlogsConsole.Program|Option "3" selected
+2021-04-01 20:39:51.3684|ERROR|BlogsConsole.Program|Invalid Blog ID
+2021-04-01 20:40:04.3259|INFO|BlogsConsole.Program|Program started
+2021-04-01 20:40:06.9714|INFO|BlogsConsole.Program|Option "3" selected
+2021-04-01 20:58:53.9031|ERROR|BlogsConsole.Program|Invalid Blog ID
+2021-04-01 20:59:03.6410|INFO|BlogsConsole.Program|Program started
+2021-04-01 20:59:08.0808|INFO|BlogsConsole.Program|Option "3" selected
+2021-04-01 21:01:12.2904|INFO|BlogsConsole.Program|Program started
+2021-04-01 21:01:14.6595|INFO|BlogsConsole.Program|Option "3" selected
+2021-04-01 21:02:35.4035|INFO|BlogsConsole.Program|Program started
+2021-04-01 21:02:37.4436|INFO|BlogsConsole.Program|Option "3" selected
+2021-04-01 21:04:49.8261|INFO|BlogsConsole.Program|Program started
+2021-04-01 21:04:51.8549|INFO|BlogsConsole.Program|Option "3" selected
+2021-04-01 21:15:18.2775|INFO|BlogsConsole.Program|Program started
+2021-04-01 21:15:20.6809|INFO|BlogsConsole.Program|Option "3" selected
+2021-04-01 21:16:36.2246|INFO|BlogsConsole.Program|Program started
+2021-04-01 21:16:38.8759|INFO|BlogsConsole.Program|Option "1" selected
+2021-04-01 21:16:46.4277|INFO|BlogsConsole.Program|Option "2" selected
+2021-04-01 21:16:50.9741|INFO|BlogsConsole.Program|Blog added - "Gardening"
+2021-04-01 21:16:53.4596|INFO|BlogsConsole.Program|Option "3" selected
+2021-04-01 21:21:34.0323|INFO|BlogsConsole.Program|Program started
+2021-04-01 21:21:36.3972|INFO|BlogsConsole.Program|Option "3" selected
+2021-04-01 21:24:13.5469|INFO|BlogsConsole.Program|Program started
+2021-04-01 21:24:15.6997|INFO|BlogsConsole.Program|Option "3" selected
+2021-04-01 21:24:20.0513|ERROR|BlogsConsole.Program|There are no blogs saved with that name
+2021-04-05 12:22:45.0954|INFO|BlogsConsole.Program|Program started
+2021-04-05 12:22:48.8787|INFO|BlogsConsole.Program|Option "3" selected
+2021-04-05 12:23:35.3649|ERROR|BlogsConsole.Program|Invalid Blog ID
+2021-04-05 12:29:11.7014|INFO|BlogsConsole.Program|Program started
+2021-04-05 12:29:16.4414|INFO|BlogsConsole.Program|Option "3" selected
+2021-04-05 12:29:25.4892|ERROR|BlogsConsole.Program|There are no blogs saved with that name
+2021-04-05 12:29:31.3476|INFO|BlogsConsole.Program|Option "3" selected
+2021-04-05 12:29:51.6887|ERROR|BlogsConsole.Program|Invalid Blog ID
+2021-04-05 12:31:41.7186|INFO|BlogsConsole.Program|Program started
+2021-04-05 12:31:43.9830|INFO|BlogsConsole.Program|Option "3" selected
+2021-04-05 12:37:29.1243|INFO|BlogsConsole.Program|Program started
+2021-04-05 12:37:58.1291|INFO|BlogsConsole.Program|Option "3" selected
+2021-04-05 12:43:03.7376|INFO|BlogsConsole.Program|Program started
+2021-04-05 12:43:07.3537|INFO|BlogsConsole.Program|Option "3" selected
+2021-04-05 12:49:39.1374|INFO|BlogsConsole.Program|Program started
+2021-04-05 12:49:42.0093|INFO|BlogsConsole.Program|Option "3" selected
+2021-04-05 12:49:50.0764|ERROR|BlogsConsole.Program|There are no blogs saved with that Id
+2021-04-05 12:49:57.3850|INFO|BlogsConsole.Program|Option "3" selected
+2021-04-05 12:50:01.6047|INFO|BlogsConsole.Program|Puppies
+2021-04-05 12:54:01.4304|INFO|BlogsConsole.Program|Program started
+2021-04-05 12:54:04.1515|INFO|BlogsConsole.Program|Option "3" selected
+2021-04-05 12:56:30.5312|INFO|BlogsConsole.Program|Program started
+2021-04-05 12:56:32.7777|INFO|BlogsConsole.Program|Option "3" selected
+2021-04-05 12:57:51.5300|INFO|BlogsConsole.Program|Option "3" selected
+2021-04-05 13:09:28.3047|INFO|BlogsConsole.Program|Program started
+2021-04-05 13:09:31.2556|INFO|BlogsConsole.Program|Option "3" selected
+2021-04-05 13:10:04.9930|INFO|BlogsConsole.Program|Option "3" selected
+2021-04-05 13:10:07.1619|ERROR|BlogsConsole.Program|Invalid entry, please try again
+2021-04-05 13:10:15.7084|INFO|BlogsConsole.Program|Option "3" selected
+2021-04-05 15:50:19.6690|INFO|BlogsConsole.Program|Program started
+2021-04-05 15:50:23.0326|INFO|BlogsConsole.Program|Option "4" selected
+2021-04-05 15:53:24.3870|INFO|BlogsConsole.Program|Program started
+2021-04-05 15:53:28.4755|INFO|BlogsConsole.Program|Option "4" selected
+2021-04-05 15:53:41.6052|INFO|BlogsConsole.Program|Option "4" selected
+2021-04-05 15:54:04.1214|INFO|BlogsConsole.Program|Option "4" selected
+2021-04-05 15:54:49.4914|INFO|BlogsConsole.Program|Program started
+2021-04-05 15:54:51.7393|INFO|BlogsConsole.Program|Option "4" selected
+2021-04-05 15:55:01.1767|INFO|BlogsConsole.Program|Option "4" selected
+2021-04-05 15:55:13.3230|INFO|BlogsConsole.Program|Option "4" selected
+2021-04-05 15:55:24.9272|INFO|BlogsConsole.Program|Option "4" selected
+2021-04-05 15:55:28.0164|ERROR|BlogsConsole.Program|There are no blogs saved with that Id
+2021-04-05 15:55:36.8823|INFO|BlogsConsole.Program|Option "4" selected
+2021-04-05 15:55:39.7455|ERROR|BlogsConsole.Program|Invalid entry, please try again
+2021-04-05 15:55:51.5409|INFO|BlogsConsole.Program|Option "1" selected
